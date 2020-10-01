@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cool Site</title>
+
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Style the header */
+  header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 30%;
+    height: auto; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+  }
+
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: darkgray;
+    height: auto; /* only for demonstration, should be removed */
+  }
+
+  /* Clear floats after the columns */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Style the footer */
+  footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  </style>
+  <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+</style>
+  </head>
+  <body>
+
+  <header>
+      <h1> Harry Potter </h1>
+  </header>
+
+  <section>
+    <nav>
+      <h2> CONTENTS </h2>
+
+          <h3><a href="chap_1.html" target="_self">Harry Potter and the Sorcerer's Stone</a></h3>
+          <h3><a href="chap_2.html" target="_self">Harry Potter and the Chamber of Secrets</a></h3>
+          <h3><a href="chap_3.html" target="_self">Harry Potter and the Prisoner of Azkaban</a></h3>
+          <h3><a href="chap_4.html" target="_self">Harry Potter and the Goblet of Fire</a></h3>
+          <h3><a href="chap_5.html" target="_self">Harry Potter and the Order of the Phoenix</a></h3>
+          <h3><a href="chap_6.html" target="_self">Harry Potter and the Half-Blood Prince</a></h3>
+          <h3><a href="chap_7.html" target="_self">Harry Potter and the Deathly Hallows</a></h3>
+
+      <table>
+        <tr>
+          <th> Series </th>
+          <th> Publish Year</th>
+        </tr>
+        <tr>
+          <td>Philosopher's Stone</td>
+          <td>1997</td>
+        </tr>
+        <tr>
+          <td>Chamber of Secrets</td>
+          <td>1998</td>
+        </tr>
+        <tr>
+          <td>Prisoner of Azkaban</td>
+          <td>1999</td>
+        </tr>
+        <tr>
+          <td>Goblet of Fire </td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>Order of the Phoenix</td>
+          <td>2003</td>
+        </tr>
+        <tr>
+          <td>Half-Blood Prince </td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>Deathly Hallows  </td>
+          <td>2007</td>
+        </tr>
+      </table>
+
+    </nav>
+
+    <article>
+      <h2 style="color:red;"> Short Summary</h2>
+      <p><strong>Adaptation of the first of J.K. Rowling's popular children's novels about Harry Potter,<br/><br/>
+         a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own.<br/><br/>
+          He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards.<br/><br/>
+           There, he meets several friends who become his closest allies and help him discover the truth about his parents' mysterious deaths.</strong></p>
+      <img src="https://i.imgur.com/0JE6X1E.jpg" alt="">
+   </article>
+  </section>
+
+  <footer>
+    
+  </footer>
+
+</body>
+</html>
